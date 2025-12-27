@@ -1,0 +1,26 @@
+{% extends 'Main/base.html' %}
+
+{% block title %}
+    Publicaciones
+{% endblock title %}
+
+{% block content_title %}
+    Lista de publicaciones
+{% endblock content_title %}
+
+{% block content %}
+    <a href="{% url 'AppCoder:post_create' %}" class="btn btn-primary mb-3">Crear nueva publicación</a>
+    <form action="{% url 'AppCoder:post_list' %}" method="get">
+        <input type="text" name="busqueda" placeholder="Buscar..." type="submit"
+        class="form-control mb-3">
+    </form>
+
+    <ul class="list-group shadow">
+        {% for post in posts %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="fw-bold">{{ post.title }}</span>
+                <span class="badge bg-primary rounded-pill">{{ post.created_at }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
