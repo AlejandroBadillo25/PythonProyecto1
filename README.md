@@ -2,7 +2,7 @@
 
 Mi primer proyecto de desarrollo web con Python y Django. Este proyecto incluye diferentes aspectos del framework como URLs, templates, modelos de Django, base de datos, panel de administración, formularios y herencia de clases.
 
-## 📝 Descripción
+## Descripción
 
 Este es un proyecto educativo que implementa un sistema de blog básico con las siguientes funcionalidades:
 - Creación y listado de posts
@@ -11,7 +11,7 @@ Este es un proyecto educativo que implementa un sistema de blog básico con las 
 - Búsqueda de posts por título
 - Panel de administración de Django
 
-## 🚀 Características
+## Características
 
 - **Gestión de Posts**: Crear y listar publicaciones
 - **Sistema de Usuarios**: Autenticación integrada con Django
@@ -20,7 +20,7 @@ Este es un proyecto educativo que implementa un sistema de blog básico con las 
 - **Templates**: Sistema de herencia de plantillas con base.html
 - **Base de datos**: SQLite para desarrollo
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 PythonProyecto1/
@@ -46,14 +46,14 @@ PythonProyecto1/
 └── README.md          # Este archivo
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3.x**
 - **Django 5.2.9**
 - **SQLite** (base de datos)
 - **HTML/CSS** (templates)
 
-## 💻 Instalación y Configuración
+## Instalación y Configuración
 
 ### Requisitos Previos
 - Python 3.8 o superior
@@ -95,7 +95,7 @@ python manage.py runserver
 
 7. Acceder a la aplicación en: `http://127.0.0.1:8000/`
 
-## 📚 Uso
+## Uso
 
 ### URLs Disponibles
 
@@ -117,10 +117,10 @@ python manage.py runserver
 1. Accede a `/AppCoder/post/list`
 2. Usa el campo de búsqueda para filtrar por título
 
-## 👨‍💻 Autor
+## Autor
 
 Alejandro Badillo
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de código abierto y está disponible para fines educativos.
