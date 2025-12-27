@@ -117,27 +117,6 @@ python manage.py runserver
 1. Accede a `/AppCoder/post/list`
 2. Usa el campo de búsqueda para filtrar por título
 
-## 🎓 Conceptos Aprendidos
-
-Este proyecto me permitió practicar:
-- Configuración de proyectos Django
-- Creación de aplicaciones Django
-- Modelos ORM y migraciones
-- Sistema de templates y herencia
-- Vistas basadas en funciones
-- Formularios de Django (ModelForm)
-- Sistema de autenticación
-- Relaciones ForeignKey con User
-- Choices en modelos (TextChoices)
-- Filtrado con QuerySets
-- Panel de administración
-
-## 📝 Notas
-
-- Este es un proyecto de aprendizaje y no está optimizado para producción
-- La SECRET_KEY debe cambiarse antes de desplegar en producción
-- DEBUG debe estar en False en producción
-
 ## 👨‍💻 Autor
 
 Alejandro Badillo
